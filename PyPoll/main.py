@@ -9,8 +9,8 @@ election_data_csv=os.path.join("Resources", "election_data.csv")
 # output text file path
 import os.path
 text_file="Output.txt"
-completename=os.path.join("analysis",text_file)
-f=open(completename,'w')
+txtpath=os.path.join("analysis",text_file)
+f=open(txtpath,'w')
 
 # variables 
 Total_votes=0
